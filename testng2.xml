@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QA">
+       <test name="Positive">
+              <classes>
+                     <class name="core.PrimeNumberCheckerTest" />
+              </classes>
+       </test>
+       <test name="Negative">
+              <classes>
+                     <class name="core.PrimeNumberCheckerTest2" />
+              </classes>
+       </test>
+</suite>
